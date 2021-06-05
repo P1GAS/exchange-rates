@@ -1,0 +1,78 @@
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1030px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.card-container {
+  margin: 20px 0;
+  max-width: 500px;
+  padding: 10px 15px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px;
+  margin: 0;
+}
+
+.inputs-container {
+  max-width: 500px;
+}
+
+.text-input {
+  margin-right: 5px;
+}
+
+.submit-btn-container {
+  padding: 10px;
+}
+
+.submit-btn {
+  min-width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .currencyInfo {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .currencyInfo {
+    font-size: 25px;
+  }
+} ;
